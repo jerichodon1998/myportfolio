@@ -15,7 +15,7 @@ export default function Home() {
 			{/* HOME SECTION */}
 			<div
 				id="intro"
-				className="h-screen bg-cover bg-[url('../public/assets/website_built.svg')]"
+				className="xl:h-screen bg-cover bg-[url('../public/assets/website_built.svg')]"
 			>
 				<div className="lg:px-52 px-10">
 					<p className="text-4xl text-center">
@@ -200,7 +200,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* ABOUT SECTION */}
-			<div id="about" className="h-screen bg-old-Mauve lg:px-32 lg:py-12 p-8">
+			<div id="about" className="xl:h-screen bg-old-Mauve lg:px-32 lg:py-12 p-8">
 				<h1 className="text-center md:text-4xl text-xl font-extrabold text-white mb-4">
 					About Me
 				</h1>
@@ -254,7 +254,7 @@ export default function Home() {
 				</div>
 			</div>
 			{/* My Project */}
-			<div id="project" className="h-screen px-32 md:py-12 py-3">
+			<div id="project" className="xl:h-screen px-32 md:py-12 py-3">
 				<div className="drop-shadow-2xl bg-darker-white lg:p-14 md:p-2 ">
 					<h1 className="text-center font-bold text-4xl text-old-Mauve">
 						My Personal Project
